@@ -27,10 +27,12 @@ All editor files — plugins, themes, icons, and styles — are loaded **locally
 2. Clone the repository:
 
 ```bash
-git clone https://github.com/<твое_имя>/strapi-plugin-tinymce-selfhosted.git
+git clone https://github.com/Agency-RBand/strapi-plugin-tinymce-selfhosted.git
+```
 
 3. Add the plugin to your Strapi configuration:
 
+```typescript
 export default ({ env }) => ({
     ...
     'wysiwyg-custom-field': {
@@ -39,6 +41,7 @@ export default ({ env }) => ({
     },
     ...
 });
+```
 
 4. Build the plugin:
 
@@ -46,6 +49,7 @@ export default ({ env }) => ({
 npm install @tinymce/tinymce-react
 cd src/plugins/wysiwyg-custom-field
 npm run build
+```
 
 ---
 
@@ -78,10 +82,12 @@ npm run build
 2. Клонируем репозиторий:
 
 ```bash
-git clone https://github.com/<твое_имя>/strapi-plugin-tinymce-selfhosted.git
+git clone https://github.com/Agency-RBand/strapi-plugin-tinymce-selfhosted.git
+```
 
 3. Подключаем плагин к Strapi конфигурации:
 
+```typescript
 export default ({ env }) => ({
     ...
     'wysiwyg-custom-field': {
@@ -90,7 +96,7 @@ export default ({ env }) => ({
     },
     ...
 });
-
+```
 
 4. Запускаем сборку плагина 
 
@@ -98,3 +104,4 @@ export default ({ env }) => ({
 npm install @tinymce/tinymce-react
 cd src/plugins/wysiwyg-custom-field
 npm run build
+```
