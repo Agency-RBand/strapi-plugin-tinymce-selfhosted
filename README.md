@@ -5,6 +5,8 @@
 
 Tested on Strapi version: 5.30.0
 
+Link to the article: https://rband.pro/en/useful/scripts-plugins/strapi-plugin-tinymce-selfhosted
+
 ---
 
 ## 🚀 Overview
@@ -58,7 +60,9 @@ npm run build
 > Локальная (self-hosted) интеграция редактора **TinyMCE** в админ-панель **Strapi**.  
 > Работает полностью офлайн — без подключения к Tiny Cloud и без API-ключей.
 
-Протестировано на версии Strapi: 5.30.0 
+Протестировано на версии Strapi: 5.30.0
+
+Ссылка на статью: https://rband.pro/useful/scripts-plugins/strapi-plugin-tinymce-selfhosted
 
 ---
 
