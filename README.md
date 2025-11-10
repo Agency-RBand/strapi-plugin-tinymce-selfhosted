@@ -24,34 +24,7 @@ All editor files — plugins, themes, icons, and styles — are loaded **locally
 
 ## ⚙️ Installation and Setup
 
-1. Create a folder for the custom field: src/admin/plugins/wysiwyg-custom-field
-
-2. Clone the repository:
-
-```bash
-git clone https://github.com/Agency-RBand/strapi-plugin-tinymce-selfhosted.git
-```
-
-3. Add the plugin to your Strapi configuration:
-
-```typescript
-export default ({ env }) => ({
-    ...
-    'wysiwyg-custom-field': {
-        enabled: true,
-        resolve: './src/plugins/wysiwyg-custom-field'
-    },
-    ...
-});
-```
-
-4. Build the plugin:
-
-```bash
-npm install @tinymce/tinymce-react
-cd src/plugins/wysiwyg-custom-field
-npm run build
-```
+Link to the article: https://rband.pro/en/useful/scripts-plugins/strapi-plugin-tinymce-selfhosted
 
 ---
 
@@ -81,31 +54,4 @@ npm run build
 
 ## ⚙️ Установка и подключение
 
-1. Создайте папку для кастомного поля: src/admin/plugins/wysiwyg-custom-field
-
-2. Клонируем репозиторий:
-
-```bash
-git clone https://github.com/Agency-RBand/strapi-plugin-tinymce-selfhosted.git
-```
-
-3. Подключаем плагин к Strapi конфигурации:
-
-```typescript
-export default ({ env }) => ({
-    ...
-    'wysiwyg-custom-field': {
-        enabled: true,
-        resolve: './src/plugins/wysiwyg-custom-field'
-    },
-    ...
-});
-```
-
-4. Запускаем сборку плагина 
-
-```bash
-npm install @tinymce/tinymce-react
-cd src/plugins/wysiwyg-custom-field
-npm run build
-```
+Ссылка на статью: https://rband.pro/useful/scripts-plugins/strapi-plugin-tinymce-selfhosted
